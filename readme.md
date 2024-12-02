@@ -150,7 +150,6 @@ Happy Coding! 🙂
 
 You can use the try/catch block to catch any validation errors thrown by Mongoose. Here's an example of how you can handle a validation error:
     
-    ```jsx
     router.post('/api/timeCapsules', async (req, res) => {
       try {
         const newTimeCapsule = await TimeCapsule.create(req.body);
@@ -163,8 +162,6 @@ You can use the try/catch block to catch any validation errors thrown by Mongoos
         }
       }
     });
-```
-
 </details>
 
 <details>
